@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBDBD9" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.npi.blureffect.mbq.TopCenterImageView
+            android:id="@+id/normal_image2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_xenon_hd_ic" />
+
+        <com.npi.blureffect.mbq.TopCenterImageView
+            android:id="@+id/blurred_image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:alpha="0" />
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="#ffe4e4e4"
+            android:cacheColorHint="#e4e4e4"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/list_divider"
+            android:dividerHeight="1.00dp"
+            android:listSelector="@drawable/side_drawer_list_selector"
+            android:orientation="vertical"
+            android:overScrollHeader="@drawable/ic_xenon_hd_ic"
+            android:overScrollMode="never"
+            android:paddingBottom="50dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:scrollbars="none"
+            android:scrollingCache="true"
+            android:splitMotionEvents="true"
+            android:stackFromBottom="false" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp" >
+
+        <com.npi.blureffect.mbq.ScrollableImageView
+            android:id="@+id/blurred_image_header2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/header"
+            android:fontFamily="sans-serif-light"
+            android:gravity="right"
+            android:paddingRight="14dp"
+            android:paddingTop="40dp"
+            android:text="@string/app_version"
+            android:textColor="#E4E4E4"
+            android:textSize="16dp"
+            tools:ignore="SpUsage" />      
+    </FrameLayout>
+
+</FrameLayout>

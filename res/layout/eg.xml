@@ -1,0 +1,52 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="horizontal"
+    android:hapticFeedbackEnabled="false"
+    android:overScrollMode="always" >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:background="#e4e4e4" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="sans-serif-light"
+            android:paddingBottom="5dp"
+            android:textColor="#2d2d2d" />
+        </android.support.v4.view.ViewPager>      
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="310.00dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffe4e4e4"
+        android:cacheColorHint="#e4e4e4"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1.00dp"
+        android:listSelector="@drawable/side_drawer_list_selector"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        android:splitMotionEvents="true"
+        android:stackFromBottom="false" />
+
+</android.support.v4.widget.DrawerLayout>

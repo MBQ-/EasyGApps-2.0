@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/feature_request"
+        android:textColor="#2D2D2D"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/recipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/subject"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textEmailAddress"
+        android:text="@string/my_email"
+        android:textColor="#2D2D2D" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/request"
+        android:textColor="#2D2D2D" />
+
+</RelativeLayout>

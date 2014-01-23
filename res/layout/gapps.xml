@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#DBDBD9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.npi.blureffect.mbq.TopCenterImageView
+        android:id="@+id/normal_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_xenon_hd_ic" />
+
+    <com.npi.blureffect.mbq.TopCenterImageView
+        android:id="@+id/blurred_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:alpha="0" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe4e4e4"
+        android:cacheColorHint="#e4e4e4"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1.00dp"
+        android:listSelector="@drawable/side_drawer_list_selector"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        android:splitMotionEvents="true"
+        android:stackFromBottom="false" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp" >
+
+        <com.npi.blureffect.mbq.ScrollableImageView
+            android:id="@+id/blurred_image_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/header"
+            android:fontFamily="sans-serif-light"
+            android:gravity="right"
+            android:paddingRight="14dp"
+            android:paddingTop="40dp"
+            android:text="@string/easygapps_2_0"
+            android:textColor="#E4E4E4"
+            android:textSize="16dp"
+            tools:ignore="SpUsage" />
+    </FrameLayout>
+
+</FrameLayout>

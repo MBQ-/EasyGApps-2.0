@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyGApps 2.0</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="MenuDrawerStuff">
+        <item>Welcome</item>
+        <item>GApps</item>
+        <item>Feature Request</item>
+        <item>Report a bug</item>
+    </string-array>
+    <string-array name="GAppsChoices">
+        <item>Stock</item>
+        <item>ParanoidAndroid</item>
+        <item>BanKs</item>
+    </string-array>
+    <string-array name="Changelog">
+        <item>Version bump (Duh)</item>
+        <item>New welcome page</item>
+        <item>Changelog (Hi)</item>
+        <item>Performance enhancements</item>
+        <item>Style changes</item>
+        <item>Layout fixes</item>
+        <item>Fix all force closes for real</item>
+        <item>Now designed for tablets</item>
+        <item>Added feature request ability</item>
+        <item>Added bug reporting ability</item>
+    </string-array>   
+    
+
+    <string name="easygapps_2_0">EasyGApps 2.0</string>
+    <string name="gapps">GApps</string>
+    <string name="contact_me_title">Contact me</string>
+    <string name="my_email">MBQsniper@hotmail.com</string>
+    <string name="request_a_feature">Request a feature</string>
+    <string name="request">Request</string>
+    <string name="feature_request">Feature Request</string>
+    <string name="wut">What\'s the bug you need to report?</string>
+    <string name="bug_report">Bug Report</string>
+    <string name="changelog">Changelog</string>
+    <string name="app_version">v0.0.0.2022</string>
+
+</resources>

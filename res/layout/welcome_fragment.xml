@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/nowCardStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="Sans-Serif-Light"
+        android:text="@string/easygapps_2_0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#A1000000" />
+
+</RelativeLayout>
